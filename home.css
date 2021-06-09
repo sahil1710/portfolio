@@ -6,13 +6,11 @@
     --main-gray: #303841;
   }
   
-  /* Base reset */
   * {
     margin: 0;
     padding: 0;
   }
-  
-  /* box-sizing and font sizing */
+
   *,
   *::before,
   *::after {
@@ -25,8 +23,6 @@
     scroll-behavior: smooth;
   }
   
-  
-  /* 1200px / 16px = 75em */
   @media (max-width: 75em) {
     html {
       font-size: 60%;
@@ -34,7 +30,6 @@
     }
   }
   
-  /* 980px / 16px = 61.25em */
   @media (max-width: 61.25em) {
     html {
       font-size: 58%;
@@ -42,7 +37,6 @@
     }
   }
   
-  /* 460px / 16px = 28.75em */
   @media (max-width: 28.75em) {
     html {
       font-size: 55%;
@@ -50,7 +44,6 @@
     }
   }
   
-  /* Base styles */
   
   body {
     font-family: 'Poppins', sans-serif;
@@ -82,9 +75,7 @@
     text-transform: uppercase;
     letter-spacing: .3rem;
     text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
-  }
-  
-  
+}
   
   h2 {
     font-size: 4.2rem;
@@ -115,8 +106,6 @@
       font-size: 4rem;
     }
   }
-  /* nav */
-  
   .nav {
     display: flex;
     justify-content: flex-end;
@@ -173,8 +162,6 @@
     border: 3px solid #FF0077;
     }
   
-  /* Welcome section */
-  
   .welcome-section {
     display: flex;
     flex-direction: column;
@@ -195,8 +182,6 @@
     text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
   }
   
-  /* Projects section */
-  
   .projects-section {
     text-align: center;
     padding: 10rem 2rem;
@@ -214,8 +199,6 @@
       font-size: 4rem;
     }
   }
-  
-  /* "Automagic" image grid using no media queries */
   .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -289,8 +272,6 @@
     transition: transform 0.3s ease-out;
   }
   
-  /* Contact section */
-  
   .contact-section {
     display: flex;
     flex-direction: column;
@@ -337,10 +318,7 @@
   
   .contact-details:hover {
     transform: translateY(8px);
-  }
-  
-  /* Footer */
-  
+  } 
   footer {
     font-weight: 300;
     display: flex;
